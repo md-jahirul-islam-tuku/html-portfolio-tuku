@@ -45,9 +45,9 @@ nav ul li a {
   font-weight: 400;
 }
 
+/* button styles for shared  */
 .btn-shared {
-  width: 150px;
-  height: 60px;
+  padding: 15px 30px;
   font-size: 20px;
   font-weight: 600;
   border-radius: 5px;
@@ -59,4 +59,47 @@ nav ul li a {
 /* h3 single letter color style */
 .text-primary {
   color: #FD6E0A;
+}
+
+.header {
+  background-image: url("../images/developer.png"), url("../images/header_bg.png");
+  background-position: left, right bottom;
+  background-repeat: no-repeat;
+  margin-left: 30px;
+}
+
+/* bannar styles */
+.bannar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bannar-content {
+  margin-left: 430px;
+}
+
+.bannar-content h4 {
+  color: rgba(71, 71, 71, 1);
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.bannar-content h1 {
+  color: rgba(24, 24, 24, 1);
+  font-family: Open Sans;
+  font-size: 85px;
+}
+
+.bannar-content p {
+  width: 585px;
+  color: rgba(117, 117, 117, 1);
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 30px auto;
+}
+
+.bannar-content button {
+  margin-right: 30px;
 }
