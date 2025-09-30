@@ -253,3 +253,59 @@ nav ul li a {
   margin: 30px 0;
   border: 1px solid rgb(233, 232, 232);
 }
+
+.contact {
+  background: rgba(255, 248, 243, 1);
+  width: 1920px;
+  height: 450px;
+  padding: 150px 0;
+}
+
+.contact h1 {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 100%;
+}
+
+.contact p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  margin: 20px 0;
+}
+
+.contact ul {
+  width: 1140px;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.contact>ul>li {
+  width: 50%;
+}
+
+.contact-media a {
+  margin-right: 15px;
+}
+
+.contact input {
+  display: block;
+  width: 461px;
+  height: 20px;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 1);
+  padding: 15px;
+  border: 1px solid rgb(233, 232, 232);
+  margin: 20px 0;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.contact textarea {
+  padding: 15px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  font-weight: 500;
+}
