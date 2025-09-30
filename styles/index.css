@@ -47,13 +47,13 @@ nav ul li a {
 
 /* button styles for shared  */
 .btn-shared {
-  padding: 15px 30px;
+  padding: 13px 30px;
   font-size: 20px;
   font-weight: 600;
   border-radius: 5px;
   color: white;
   background-color: #FD6E0A;
-  border: none;
+  border: 2px solid #FD6E0A;
 }
 
 /* h3 single letter color style */
@@ -102,4 +102,16 @@ nav ul li a {
 
 .bannar-content button {
   margin-right: 30px;
+}
+
+.btn-shared:hover {
+  padding: 13px 30px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 5px;
+  color: #FD6E0A;
+  border: 2px solid #FD6E0A;
+  background-color: white;
+  transition: 0.2s;
+  cursor: pointer;
 }
